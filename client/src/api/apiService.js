@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-http: const API_ALL_URL = 'http://fernandosilvaapp-desafio-final.herokuapp.com/api/transaction/?period=';
+const API_ALL_URL = 'http://fernandosilvaapp-desafio-final.herokuapp.com/api/transaction/?period=';
 const API_ONE_URL = 'http://fernandosilvaapp-desafio-final.herokuapp.com/api/transaction';
 
 async function getAllTransactions(period) {

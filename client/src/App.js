@@ -33,8 +33,6 @@ export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isSpinnerOpen, setIsSpinnerOpen] = useState(true);
 
-  const { titleH1, titleH2 } = styles;
-
   useEffect(() => {
     const getAllPeriods = async () => {
       const transactions = await api.getAllPeriods();
@@ -191,14 +189,3 @@ export default function App() {
     </div>
   );
 }
-
-const styles = {
-  titleH1: {
-    fontSize: '30px',
-    fontFamily: 'fantasy',
-  },
-
-  titleH2: {
-    fontSize: '30px',
-  },
-};

@@ -204,8 +204,8 @@ const styles = {
     content: {
       position: 'absolute',
       top: '5%',
-      left: '25%',
-      right: '25%',
+      left: '15%',
+      right: '15%',
       bottom: '10%',
       border: '1px solid #ccc',
       background: '#fff',
@@ -261,7 +261,6 @@ const styles = {
   },
 
   valueDate: {
-    // width: '50%',
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'start',
@@ -270,11 +269,11 @@ const styles = {
   },
 
   inputValue: {
-    width: '60%',
+    width: '40%',
   },
 
   inputDate: {
-    width: '40%',
+    width: '60%',
   },
 
   dateBox: {

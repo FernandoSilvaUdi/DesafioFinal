@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_ALL_URL = 'http://localhost:3001/api/transaction/?period=';
-const API_ONE_URL = 'http://localhost:3001/api/transaction';
+http: const API_ALL_URL = 'http://fernandosilvaapp-desafio-final.herokuapp.com/api/transaction/?period=';
+const API_ONE_URL = 'http://fernandosilvaapp-desafio-final.herokuapp.com/api/transaction';
 
 async function getAllTransactions(period) {
   const res = await axios.get(`${API_ALL_URL}${period}`);

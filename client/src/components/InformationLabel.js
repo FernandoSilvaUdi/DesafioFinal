@@ -9,15 +9,15 @@ export default function InformationLabel({ transactions }) {
   const { income, expense, balance } = values;
 
   return (
-    <div style={infoBox}>
-      <div style={labelBoxStart}>
+    <div className="row" style={infoBox}>
+      <div className="col s6 m3 l3" style={labelBoxStart}>
         <label style={titleText}>
           <b>Lançamentos:&nbsp;</b>
         </label>
         <label style={titleText}> {transactions.length} </label>
       </div>
 
-      <div style={labelBoxStart}>
+      <div className="col s6 m3 l3" style={labelBoxStart}>
         <label style={titleText}>
           <b>Receitas:&nbsp;</b>
         </label>
@@ -27,7 +27,7 @@ export default function InformationLabel({ transactions }) {
         </label>
       </div>
 
-      <div style={labelBoxEnd}>
+      <div className="col s6 m3 l3" style={labelBoxEnd}>
         <label style={titleText}>
           <b>Despesas:&nbsp;</b>
         </label>
@@ -37,7 +37,7 @@ export default function InformationLabel({ transactions }) {
         </label>
       </div>
 
-      <div style={labelBoxEnd}>
+      <div className="col s6 m3 l3" style={labelBoxEnd}>
         <label style={titleText}>
           <b>Saldo:&nbsp;</b>
         </label>
@@ -55,28 +55,18 @@ const styles = {
     padding: '5px',
     border: '1px solid grey',
     borderRadius: '5px',
-    marginRight: '10px',
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    marginBottom: '40px',
   },
 
   labelBoxStart: {
     width: '25%',
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'flex-start',
   },
 
   labelBoxEnd: {
     width: '25%',
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'flex-end',
   },
 
   titleText: {

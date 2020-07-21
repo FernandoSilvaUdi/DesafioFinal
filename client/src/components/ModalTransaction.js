@@ -203,10 +203,10 @@ const styles = {
     },
     content: {
       position: 'absolute',
-      top: '10%',
+      top: '5%',
       left: '25%',
       right: '25%',
-      bottom: '15%',
+      bottom: '10%',
       border: '1px solid #ccc',
       background: '#fff',
       overflow: 'auto',

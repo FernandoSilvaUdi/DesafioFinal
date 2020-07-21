@@ -20,7 +20,7 @@ export default function Header() {
 const styles = {
   titleH1: {
     fontSize: '30px',
-    fontFamily: 'fantasy',
+    // fontFamily: 'fantasy',
   },
 
   titleH2: {
